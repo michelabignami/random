@@ -127,13 +127,13 @@ transition:background-color 1.5s;}
  a:hover{color:yellow;}
 
 #m1{margin-left: 20.5vw;
-margin-top:47.5vh;}
+margin-top:47vh;}
 #m2{margin-left: 60.5vw;
-margin-top:71vh;}
+margin-top:70.5vh;}
 #m3{margin-left: 34.5vw;
-margin-top:23.5vh;}
+margin-top:23vh;}
 #m4{margin-left: 20.5vw;
-margin-top:49vh;}
+margin-top:48.5vh;}
 
 .me{position:absolute;
   margin-left: 5vw;
@@ -187,20 +187,21 @@ transform: translate(-50%,-50%);}
 
 h1{margin-left: 39vw}
 #foto{width: 30vh;
-height:40vh;}
+height:40vh;
+margin-left: 2vw;
+margin-top: -8vh;}
 #foto img {width: 40vh;
 height:52vh;
-margin-left: 7vw;
-margin-top: -8vh;
+
 }
 b{font-size: 1.1em}
 #io{position:absolute;
 margin-top:26vh;
-margin-left:32vw;
+margin-left:28vw;
 }
 #chi{position:absolute;
 margin-top:52vh;
-margin-left:14vw;
+margin-left:10vw;
 }
 
 #sense8{position:absolute;
@@ -219,7 +220,7 @@ font-size: 1.2em;}
   min-width:800px;
   max-width: 800px;
   position: relative;
-  margin: auto;
+  margin-left:-5vw;
 }
 
 /* Hide the images by default */
@@ -256,7 +257,7 @@ font-size: 1.2em;}
 /* Caption text */
 .text {  font-size: 1em;
   position: absolute;
-  bottom: -30%;
+  bottom: -15vh;
   width: 100%;
 
 }
