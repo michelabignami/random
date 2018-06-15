@@ -3,10 +3,11 @@ body{padding:0;
   font-family: sans-serif;
   font-family: 'Indie Flower', cursive;
   font-size: 1em;
+  color:white;
 }
 #cielo{width: 100vw;
 height:100vh;
-background-color:rgb(12,19,75);
+background-color:rgb(19,38,88);
 }
 #cielo img{position: absolute;
 left:0;
@@ -17,13 +18,14 @@ z-index:1;}
 height:50px;}
 .blocchi{width:100vw;
 height:100vh;
-background-color:blue;
+background-color:rgb(30,36,55);
 z-index:1;
 margin:0 inherit;
 
 }
-#azzurro{background-color: pink;}
-#footer{background-color:pink;
+#azzurro{background-color: rgb(45,51,70);}
+#b2{background-color: rgb(60,66,85);}
+#footer{background-color:rgb(85,91,100);
   width:100vw;
   height:30vh;
   bottom:0;
@@ -47,6 +49,8 @@ height:60px;}
 height:60px;}
 #s6 img{width:50px;
 height:60px;}
+#s7 img{width:50px;
+height:60px;}
 
 .ruotalo{animation: ruota 7s infinite ease-out;}
 @keyframes ruota {
@@ -61,30 +65,33 @@ height:60px;}
 93.7% {transform: rotate(15deg);transform-origin: center top;}
 100% {transform: rotate(0deg);transform-origin: center top;}}
 
-#s1{ margin-left:25vw;
-  margin-top:15vh;
+#s1{ margin-left:65vw;
+  margin-top:46vh;
 }
-#s2{margin-left: 80vw;
-  margin-top:30vh;
+#s2{margin-left: 32vw;
+  margin-top:90.2vh;
   }
-#s3{margin-left:40vw;
-  margin-top:55vh;
+#s3{margin-left:82vw;
+  margin-top:16vh;
   }
-#s4{margin-left:80vw;
-  margin-top:80vh;
+#s4{margin-left:10vw;
+  margin-top:19vh;
   }
-#s5{margin-left:19vw;
-  margin-top:35vh;
+#s5{margin-left:22vw;
+  margin-top:70vh;
   }
-#s6{margin-left:95vw;
-    margin-top:15v;
+#s6{margin-left:65vw;
+    margin-top:20vh;
   }
-.menu{background-color: red;
-  border-top: 5px solid green;
-  border-bottom: 5px solid green;
-  border-left: 5px solid green;
-  border-right: 5px solid green;
-width:120px;
+#s7{margin-left:5vw;
+      margin-top:43.5vh;
+    }
+.menu{background-color:none	;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+width:110px;
 height:30px;
 border-radius: 5px;
 transform: translate(-50%;-50%);
@@ -93,17 +100,18 @@ z-index:3;
 text-align: center;
 line-height:0px;
 transition:background-color 1.5s;}
-.menu:hover{background-color:green;
+.menu:hover{background-color:white;
  }
+ a:hover{color:#310062}
 
-#m1{margin-left: 65vw;
-margin-top:14vh;}
-#m2{margin-left: 75vw;
-margin-top:55vh;}
-#m3{margin-left: 15vw;
-margin-top:60vh;}
-#m4{margin-left: 25vw;
+#m1{margin-left: 10vw;
 margin-top:90vh;}
+#m2{margin-left: 65vw;
+margin-top:65vh;}
+#m3{margin-left: 35vw;
+margin-top:20vh;}
+#m4{margin-left: 25vw;
+margin-top:40vh;}
 
 .me{position:absolute;
   margin-left: 5vw;
@@ -111,7 +119,7 @@ margin-top:90vh;}
   z-index:2;
 }
 a{text-decoration: none;
-color:pink;
+color:white;
 }
 .footer{background-color: lightblue;
 position:absolute;
@@ -123,23 +131,24 @@ opacity:0.5;
 display:block;
 z-index:1;
 }
-.torna{background-color:black;
+.torna{background-color:none;
 width: 50px;
-height:50px;
+height:70px;
 z-index:2;
 position:absolute;
 margin-left:95vw;
-margin-top:93vh;
+margin-top:90vh;
 }
-#su{margin-top:23.5vh;
+#su{margin-top:21.5vh;
 }
+#torn{margin-top: -10vh;}
 /*#tornaa{margin-top:23vh}*/
 .torna span{position:absolute;
-left:0;
+left:-40;
 bottom:0;
 width:50px;
-height: 50px;
-background:#222;
+height:50px;
+background:none;
 display:none;
 font-size:1em;
 color:white;
@@ -149,16 +158,31 @@ line-height: 40pt;
 .torna:hover span{display:block;}
 
 #contenitore{position:absolute;
-margin-top:50vh;
+margin-top:45vh;
 margin-left:50vw;
 transform: translate(-50%,-50%);}
 #box {box-sizing:border-box}
 
+#foto{width: 20vh;
+height:20vh;
+}
+
+#foto img {width: 30vh;
+height:20vh;
+}
+
+#io{position:absolute;
+margin-top:40vh;
+margin-left:10vw;}
+
+#sense8{position:absolute;
+margin-left: 60vw;
+margin-top: 20vh;}
 /* Slideshow container */
 .slideshow-container {
   width: 60vw;
   height:60vh;
-  min-width:1000px;
+  min-width:800px;
   max-width: 1000px;
   position: relative;
   margin: auto;
@@ -198,7 +222,7 @@ transform: translate(-50%,-50%);}
 /* Caption text */
 .text {  font-size: 1em;
   position: absolute;
-  bottom: -10vh;
+  bottom: -10vw;
   width: 100%;
 
 }
@@ -230,6 +254,9 @@ transform: translate(-50%,-50%);}
   from {opacity: .4}
   to {opacity: 1}
 }
-
-.icone img{width:10%;
-height:10%;}
+.icone{position:absolute;
+width: 48px;
+height:50px;}
+.icone img{width:100%;
+height:100%;}
+#mail{margin-top: 13vh;}

@@ -4,6 +4,7 @@ $("#s2").hover(function(){$("#s2").addClass("ruotalo")});
 $("#s3").hover(function(){$("#s3").addClass("ruotalo")});
 $("#s4").hover(function(){$("#s4").addClass("ruotalo")});
 $("#s5").hover(function(){$("#s5").addClass("ruotalo")});
+$("#s7").hover(function(){$("#s7").addClass("ruotalo")});
 
 
 var slideIndex = 1;
