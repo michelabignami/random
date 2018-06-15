@@ -296,7 +296,8 @@ height:100%;
 margin-top: 15vh;}
 #mail img{width:90%;
 height:90%;
-margin-top: 15.5vh;
+}
+#mail {margin-top: 0.5vh;
 margin-left: 60vw}
 #insta{margin-left: 50vw}
 #face {margin-left: 40vw}
